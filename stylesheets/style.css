@@ -27,6 +27,12 @@ ul {
   list-style-type: none;
 }
 
+@media screen and (max-width: 576px) {
+  .sidebar {
+    display: none;
+  }
+}
+
 .l-flex {
   display: flex;
 }

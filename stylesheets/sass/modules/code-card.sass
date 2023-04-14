@@ -1,6 +1,8 @@
+@use "../variable" as v
+
 .code-card
     margin-bottom: 8px
-    background: #1d1e22
+    background: v.$code-card-background-color
     border-radius: 6px
     width: 300px
     height: 140px
@@ -26,7 +28,7 @@
     justify-content: space-between
 
 .code-card-header .fa:before
-    color: #b7bbc8
+    color: v.$dark-color
 
 .code-card-title-text
     margin: 0
@@ -40,19 +42,19 @@
     margin: 0
 
 .hilight-orange
-    color: #a88038
+    color: v.$hilight-orange
 
 .hilight-beige
-    color: #e1ca72
+    color: v.$hilight-beige
 
 .hilight-green
-    color: #74b087
+    color: v.$hilight-green
 
 .hilight-purple
-    color: #9f8198
+    color: v.$hilight-purple
 
 .hilight-blue
-    color: #7a99ad
+    color: v.$hilight-blue
 
 .cursor
     animation: blink 1s infinite

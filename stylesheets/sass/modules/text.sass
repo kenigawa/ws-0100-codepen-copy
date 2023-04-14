@@ -1,10 +1,12 @@
+@use "../variable" as v
+
 .text-bold
     font-weight: bold
 .text-warning
-    color: #ffdd40
+    color: v.$warming-color
 .text-primary
-    color: #47cf73
+    color: v.$primary-color
 .text-weak
-    color: #b7bbc8
+    color: v.$dark-color
 .text-accent
-    color: #0ebeff
+    color: v.$accent-color
