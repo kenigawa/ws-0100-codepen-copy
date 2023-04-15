@@ -27,12 +27,6 @@ ul {
   list-style-type: none;
 }
 
-@media screen and (max-width: 576px) {
-  .sidebar {
-    display: none;
-  }
-}
-
 .l-flex {
   display: flex;
 }
@@ -242,17 +236,32 @@ ul {
   left: 160px;
   bottom: 20px;
 }
+@media screen and (max-width: 576px) {
+  .code-card-html {
+    left: 120px;
+  }
+}
 
 .code-card-scss {
   position: relative;
   left: 220px;
   bottom: 20px;
 }
+@media screen and (max-width: 576px) {
+  .code-card-scss {
+    left: 160px;
+  }
+}
 
 .code-card-js {
   position: relative;
   left: 160px;
   bottom: 20px;
+}
+@media screen and (max-width: 576px) {
+  .code-card-js {
+    left: 120px;
+  }
 }
 
 .code-card-header {
@@ -365,6 +374,11 @@ ul {
   width: 50%;
   padding: 32px;
 }
+@media screen and (max-width: 576px) {
+  .hero-body-description {
+    width: 100%;
+  }
+}
 
 .hero-body-description-title {
   margin: 0;
@@ -384,6 +398,11 @@ ul {
 .hero-body-image {
   width: 50%;
 }
+@media screen and (max-width: 576px) {
+  .hero-body-image {
+    width: 100%;
+  }
+}
 
 .hero-body-image-card {
   margin: 16px auto;
@@ -391,6 +410,11 @@ ul {
   width: 495px;
   height: 410px;
   background: linear-gradient(109.61deg, #4c4f5a 4.26%, #202125 84.84%);
+}
+@media screen and (max-width: 576px) {
+  .hero-body-image-card {
+    width: 100%;
+  }
 }
 
 .header-buttons {
@@ -440,6 +464,11 @@ ul {
 
 .sidebar {
   background: #1F1F26;
+}
+@media screen and (max-width: 576px) {
+  .sidebar {
+    display: none;
+  }
 }
 
 .get-start-text {

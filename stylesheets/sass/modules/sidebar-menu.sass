@@ -2,6 +2,8 @@
 
 .sidebar
     background: v.$sidebar-background-color
+    @include v.media-screen-max-width-min
+        display: none
 
 .get-start-text
     margin: 0.2em
