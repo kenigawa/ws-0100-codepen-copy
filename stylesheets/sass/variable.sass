@@ -36,6 +36,18 @@ $screen-xl-min: 1200px
 
 
 // Mixin:
-@mixin media-screen-max-width-min
+@mixin small
     @media screen and (max-width: $screen-sm-min)
+        @content
+
+@mixin medium
+    @media screen and (max-width: $screen-md-min)
+        @content
+
+@mixin large
+    @media screen and (max-width: $screen-lg-min)
+        @content
+
+@mixin xlarge
+    @media screen and (max-width: $screen-xl-min)
         @content
